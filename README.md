@@ -1,4 +1,5 @@
 # 🎄 Advent of Frontend 2023 🎄
+<img src="https://img.shields.io/static/v1?message=Advent%202023%20Challenge&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge&logo=typescript&link=https%3A%2F%2Fwww.opanujfrontend.pl%2Fadvent" height="35" alt="Advent 2023 Challenge" />
 
 ![](./resources/head.png)
 
