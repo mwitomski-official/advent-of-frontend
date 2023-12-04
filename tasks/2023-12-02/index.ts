@@ -6,9 +6,9 @@
 //? Renifery są ekspertami od logistyki, a nie od struktur danych, więc Mikołaj zwraca się o pomoc do programistów.
 //? Czy jesteś w stanie stworzyć dla niego odpowiednią strukturę danych, która pomoże mu w sortowaniu listów? Czas ucieka!
 
-//* --------------------  Priority Queue --------------------
-//! A priority queue differs from regular queues that items get inserted with a priority
-//! that determines when they will be returned by pop
+//* -------------------- Priority Queue --------------------
+//* A priority queue differs from regular queues that items get inserted with a priority
+//* that determines when they will be returned by pop
 
 import { Logger } from "../common/logs/logger";
 
@@ -21,7 +21,7 @@ interface IChristmasQueue<T> {
 
 export class ChristmasQueue<T> implements IChristmasQueue<T> {
   private logger: Logger;
-  private debug: boolean = true;
+  private debug: boolean = false;
   private christmasStorage: [number, T][] = [];
 
   constructor() {

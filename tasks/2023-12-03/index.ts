@@ -15,6 +15,7 @@
 */
 //? Helper: Metoda Array.reduce() w Praktyce - JavaScript by Overment - https://www.youtube.com/watch?v=L5hBo9J_HlU
 //? -----------------------------------------------------------------------
+//* -------------------- Reduce --------------------
 
 export interface Lokalizacja {
   x: number;
