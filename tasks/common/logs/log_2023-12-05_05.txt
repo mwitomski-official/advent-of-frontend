@@ -1,0 +1,35 @@
+[2023-12-05T19:39:19.999Z] -------------------- Emitter --------------------
+[2023-12-05T19:39:20.001Z] Initialized subscribers for event 'letter':
+[2023-12-05T19:39:20.002Z] Added subscriber for event 'letter':function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-05T19:39:20.003Z] Initialized subscribers for event 'gift':
+[2023-12-05T19:39:20.003Z] Added subscriber for event 'gift':function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-05T19:39:20.004Z] Emitting event 'letter': Invoking subscriber:function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-05T19:39:20.008Z] -------------------- Emitter --------------------
+[2023-12-05T19:39:20.009Z] Initialized subscribers for event 'gift':
+[2023-12-05T19:39:20.009Z] Added subscriber for event 'gift':function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-05T19:39:20.010Z] Added subscriber for event 'gift':function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-05T19:39:20.011Z] Emitting event 'gift': Invoking subscriber:function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-05T19:39:20.011Z] Emitting event 'gift': Invoking subscriber:function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-05T19:39:20.013Z] -------------------- Emitter --------------------
+[2023-12-05T19:39:20.014Z] Initialized subscribers for event 'letter':
+[2023-12-05T19:39:20.014Z] Added subscriber for event 'letter':function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-05T19:39:20.015Z] Before removal: Subscribers for event 'letter':function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-05T19:39:20.016Z] After removal: Subscribers for event 'letter':

@@ -25,7 +25,7 @@ export class ChristmasQueue<T> implements IChristmasQueue<T> {
   private christmasStorage: [number, T][] = [];
 
   constructor() {
-    this.logger ??= new Logger();
+    this.logger ??= new Logger("02");
   }
 
   // Adds an item to the queue

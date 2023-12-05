@@ -3,14 +3,14 @@ import * as fs from "fs";
 export class Logger {
   private logFilePath: string;
 
-  constructor() {
-    this.logFilePath = this.generateLogFilePath();
+  constructor(day: string) {
+    this.logFilePath = this.generateLogFilePath(day);
   }
 
-  private generateLogFilePath(): string {
+  private generateLogFilePath(day: string): string {
     const now = new Date();
     const dateString = now.toISOString().split("T")[0]; // Get YYYY-MM-DD
-    return `tasks\\common\\logs\\log_${dateString}.txt`;
+    return `tasks\\common\\logs\\log_${dateString}_${day}.txt`;
   }
 
   private getCurrentTimestamp(): string {
