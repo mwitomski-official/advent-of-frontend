@@ -5,7 +5,7 @@
 // a system do obsługi sortowania nie jest wystarczająco elastyczny.
 // Zaproponuj rozwiązanie, które pozwoli na łatwe dodawanie nowych strategii sortowania w zależności od parametrów
 // takich jak kraj pochodzenia listu, priorytet, jego długość, albo zawartość.
-// * -------------------- List | Sorting + localeCompare --------------------
+// * -------------------- List | Sorting + localeCompare + Slice --------------------
 
 // Enum to represent priority levels
 export enum Priority {

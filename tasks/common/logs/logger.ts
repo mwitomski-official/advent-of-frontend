@@ -10,7 +10,7 @@ export class Logger {
   private generateLogFilePath(day: string): string {
     const now = new Date();
     const dateString = now.toISOString().split("T")[0]; // Get YYYY-MM-DD
-    return `tasks\\common\\logs\\log_${dateString}_${day}.txt`;
+    return `tasks\\common\\logs\\log_${day}.txt`;
   }
 
   private getCurrentTimestamp(): string {
