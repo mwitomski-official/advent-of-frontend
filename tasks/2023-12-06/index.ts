@@ -24,7 +24,7 @@ export class Machine implements Observer {
   // Implement the update method from the Observer interface
   update(newState: string): void {
     this.state = newState;
-    console.log(`Machine updated. New state: ${this.state}`);
+    // console.log(`Machine updated. New state: ${this.state}`);
   }
 
   setState(newState: string): void {
@@ -63,7 +63,7 @@ export class OrderController implements Observer {
   private machines: Machine[] = [];
 
   update(newState: string): void {
-    console.log(`OrderController updated. New state: ${newState}`);
+    // console.log(`OrderController updated. New state: ${newState}`);
   }
 
   // Register a machine with the controller

@@ -23,6 +23,7 @@ export interface Tool {
 
 export class Equipment {
   private tools: Tool[] = [];
+  private initIndexes = new Set<number>();
 
   /**
    * Register a tool with the equipment.
@@ -42,7 +43,10 @@ export class Equipment {
    * @returns The total number of initialized tools.
    */
   initializeTools(): number {
-    this.tools.forEach((tool) => tool.init());
+    this.tools.forEach((tool, index) => {
+      tool.init();
+      this.initIndexes.add(index);
+    });
     return this.tools.length;
   }
 
@@ -53,11 +57,13 @@ export class Equipment {
    */
   // * The updateTools method now throws an error if called before initialization.
   updateTools(): number {
-    if (this.tools.length === 0) {
-      throw new Error("Cannot update any tools before initialization.");
-    }
+    this.tools.forEach((tool, index) => {
+      if (!this.initIndexes.has(index)) {
+        throw new Error("Cannot update any tools before initialization.");
+      }
 
-    this.tools.forEach((tool) => tool.update());
+      tool.update();
+    });
     return this.tools.length;
   }
 

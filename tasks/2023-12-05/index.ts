@@ -39,7 +39,7 @@ export class ChristmasEmitter {
 
   constructor() {
     this.logger ??= new Logger("05");
-    this.logger.log("-------------------- Emitter --------------------");
+    // this.logger.log("-------------------- Emitter --------------------");
   }
 
   // Subscribe a callback function to a specific event
@@ -53,10 +53,10 @@ export class ChristmasEmitter {
     if (!this.eventSubscribers.has(eventKey)) {
       this.eventSubscribers.set(eventKey, []);
 
-      this.logger.log(
-        `Initialized subscribers for event '${eventKey}':` +
-          this.eventSubscribers.get(eventKey)
-      );
+      // this.logger.log(
+      //   `Initialized subscribers for event '${eventKey}':` +
+      //     this.eventSubscribers.get(eventKey)
+      // );
     }
     // Add the callback to the list of subscribers for the event
     // ? -------------------- Explanation
@@ -66,7 +66,7 @@ export class ChristmasEmitter {
     // ? The ! at the end asserts to the TypeScript compiler that the result of this.eventSubscribers.get(eventKey) is non-null.
     // ? This is used in situations where you, as the developer, know that the value will not be null or undefined at runtime.
     this.eventSubscribers.get(eventKey)!.push(callback);
-    this.logger.log(`Added subscriber for event '${eventKey}':` + callback);
+    // this.logger.log(`Added subscriber for event '${eventKey}':` + callback);
   }
 
   // Unsubscribe a callback function from a specific event
@@ -108,13 +108,13 @@ export class ChristmasEmitter {
     if (this.eventSubscribers.has(eventKey)) {
       // Iterate through each subscriber and invoke the callback
       this.eventSubscribers.get(eventKey)!.forEach((callback) => {
-        this.logger.log(
-          `Emitting event '${eventKey}': Invoking subscriber:` + callback
-        );
+        // this.logger.log(
+        //   `Emitting event '${eventKey}': Invoking subscriber:` + callback
+        // );
         callback();
       });
     } else {
-      this.logger.log(`Emitting event '${eventKey}': No subscribers found.`);
+      // this.logger.log(`Emitting event '${eventKey}': No subscribers found.`);
     }
   }
 }

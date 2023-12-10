@@ -51,12 +51,12 @@ export function memoize<T extends (...args: any[]) => any>(
     // If the result is already in the cache, return it
     if (cache.has(key)) {
       // Log that the result was retrieved from the cache
-      console.log(`▶ Cache hit for key: ${key}`);
+      // console.log(`▶ Cache hit for key: ${key}`);
       return cache.get(key)!;
     }
 
     // Log that the original function is being called
-    console.log(`▶ Calling original function for key: ${key}`);
+    // console.log(`▶ Calling original function for key: ${key}`);
 
     // Call the original function if the result is not in the cache
     const result = func(...args);
@@ -66,13 +66,13 @@ export function memoize<T extends (...args: any[]) => any>(
       const oldestKey = cache.keys().next().value;
 
       // Log that an entry is being evicted from the cache
-      console.log(`▶ Evicting cache entry for key: ${oldestKey}`);
+      // console.log(`▶ Evicting cache entry for key: ${oldestKey}`);
 
       cache.delete(oldestKey);
     }
 
     // Cache the result and log the cache entry
-    console.log(`▶ Caching result for key: ${key}`);
+    // console.log(`▶ Caching result for key: ${key}`);
 
     // Cache the result and return it
     cache.set(key, result);
@@ -82,7 +82,7 @@ export function memoize<T extends (...args: any[]) => any>(
   // Function to manually clear the cache
   memoizedFunction.clearCache = () => {
     // Log that the cache is being cleared
-    console.log("▶Clearing the cache");
+    // console.log("▶Clearing the cache");
 
     cache.clear();
   };
