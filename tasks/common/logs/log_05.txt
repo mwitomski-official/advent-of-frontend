@@ -186,3 +186,35 @@
         return fn.apply(this, arguments);
       }
 [2023-12-10T20:17:46.710Z] After removal: Subscribers for event 'letter':
+[2023-12-11T20:28:04.801Z] Before removal: Subscribers for event 'letter':function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-11T20:28:04.805Z] After removal: Subscribers for event 'letter':
+[2023-12-11T20:31:03.543Z] Before removal: Subscribers for event 'letter':function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-11T20:31:03.550Z] After removal: Subscribers for event 'letter':
+[2023-12-11T20:46:08.918Z] Before removal: Subscribers for event 'letter':function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-11T20:46:08.921Z] After removal: Subscribers for event 'letter':
+[2023-12-11T20:56:44.931Z] Before removal: Subscribers for event 'letter':function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-11T20:56:44.932Z] After removal: Subscribers for event 'letter':
+[2023-12-11T20:59:37.158Z] Before removal: Subscribers for event 'letter':function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-11T20:59:37.160Z] After removal: Subscribers for event 'letter':
+[2023-12-11T21:02:28.969Z] Before removal: Subscribers for event 'letter':function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-11T21:02:28.971Z] After removal: Subscribers for event 'letter':
+[2023-12-11T21:06:33.381Z] Before removal: Subscribers for event 'letter':function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-11T21:06:33.385Z] After removal: Subscribers for event 'letter':
+[2023-12-11T21:07:43.663Z] Before removal: Subscribers for event 'letter':function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-11T21:07:43.665Z] After removal: Subscribers for event 'letter':
