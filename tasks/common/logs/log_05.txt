@@ -250,3 +250,39 @@
         return fn.apply(this, arguments);
       }
 [2023-12-12T18:13:07.103Z] After removal: Subscribers for event 'letter':
+[2023-12-12T18:28:11.256Z] Before removal: Subscribers for event 'letter':function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-12T18:28:11.257Z] After removal: Subscribers for event 'letter':
+[2023-12-13T20:04:31.337Z] Before removal: Subscribers for event 'letter':function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-13T20:04:31.339Z] After removal: Subscribers for event 'letter':
+[2023-12-13T20:07:39.913Z] Before removal: Subscribers for event 'letter':function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-13T20:07:39.924Z] After removal: Subscribers for event 'letter':
+[2023-12-13T20:12:00.033Z] Before removal: Subscribers for event 'letter':function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-13T20:12:00.034Z] After removal: Subscribers for event 'letter':
+[2023-12-13T20:16:29.159Z] Before removal: Subscribers for event 'letter':function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-13T20:16:29.161Z] After removal: Subscribers for event 'letter':
+[2023-12-13T20:17:09.252Z] Before removal: Subscribers for event 'letter':function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-13T20:17:09.254Z] After removal: Subscribers for event 'letter':
+[2023-12-13T20:18:56.348Z] Before removal: Subscribers for event 'letter':function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-13T20:18:56.383Z] After removal: Subscribers for event 'letter':
+[2023-12-13T20:19:46.285Z] Before removal: Subscribers for event 'letter':function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-13T20:19:46.295Z] After removal: Subscribers for event 'letter':
+[2023-12-13T20:23:40.109Z] Before removal: Subscribers for event 'letter':function () {
+        return fn.apply(this, arguments);
+      }
+[2023-12-13T20:23:40.120Z] After removal: Subscribers for event 'letter':
