@@ -1,5 +1,5 @@
 // Tutaj skopiuj kod zadania
-// ? Day 16
+// ? Day 17
 // Na czas nieobecności Świętego Mikołaja zespół elfów-programistów eksperymentuje z nowościami,
 // jakie zostaną wdrożone w przyszłym roku do procesu przygotowywania prezentów.
 // Jednym z pomysłów jest zbudowanie nowego języka opisu prezentów, który będzie bardziej czytelny dla każdego pracownika fabryki.
